@@ -1,0 +1,68 @@
+/* Hide default Streamlit components */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.stAppHeader {
+    visibility: hidden;
+}
+.stDeployButton {
+    visibility: hidden;
+}
+
+/* Main container for the form */
+.stApp {
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Form container styling */
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Column container styles */
+.form-column {
+    flex: 1;
+    padding: 15px;
+    min-width: 300px;
+}
+
+/* Add padding between each field */
+.stSlider, .stSelectbox, .stNumberInput {
+    margin-bottom: 20px;
+}
+
+/* Header style */
+.header {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1 {
+font-size: 60px;
+color: #2356ff;
+}
+
+h6 {
+color: #10182c;
+}
+
+.st-emotion-cache-ee5oqe p {
+    word-break: break-word;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.stAlertContainer {background-color: #496572;}
+
+/* Footer style */
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
